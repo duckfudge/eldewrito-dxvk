@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "source_commit": "7facd7c50cf8eb2ab9dd72dfa0387d04943db969",
+  "patch_id": "e6dd32eb028138e9aa73e9eef944005cc1598546a22e03299477b87d708fa3c3",
+  "published_at": "2026-09-10T12:24:01.866272+00:00",
+  "summary": "Updated d3d9.dll, dxvk.conf, eldorado.dxvk-cache.",
+  "files": [
+    {
+      "name": "d3d9.dll",
+      "size": 4452366,
+      "sha256": "0349923a6618f2383451c170a0f24d9c8f328392179aca71826a853655982405"
+    },
+    {
+      "name": "dxvk.conf",
+      "size": 161,
+      "sha256": "09ef3c2536acc83d10bb9d2425b2c621711c6fb6232bed0bd6c206abf85f4400"
+    },
+    {
+      "name": "eldorado.dxvk-cache",
+      "size": 2153302,
+      "sha256": "4fd502276ee65c426aa76d5c94c71bd0f60142a5c5d0cfe3aeeb91a9a07385d8"
+    }
+  ]
+}
