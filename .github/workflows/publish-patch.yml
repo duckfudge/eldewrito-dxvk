@@ -1,0 +1,33 @@
+name: Publish patch changes
+on:
+  push:
+    branches: [main]
+    paths:
+      - d3d9.dll
+      - dxvk.conf
+      - eldorado.dxvk-cache
+      - .github/workflows/publish-patch.yml
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: dxvk-patch-feed
+  cancel-in-progress: false
+jobs:
+  publish:
+    if: github.repository == 'duckfudge/eldewrito-dxvk'
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          repository: duckfudge/eldewrito-dxvk-updater
+          ref: main
+          persist-credentials: false
+      - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
+        with:
+          python-version: '3.13'
+      - name: Validate and publish the current patch
+        env:
+          PUBLISH_TOKEN: ${{ github.token }}
+        run: python scripts/publish_patch.py
