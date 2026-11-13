@@ -1,0 +1,9 @@
+{
+  "schema_version": 1,
+  "version": "1.1.0",
+  "source_commit": "24349e8b93aaccadeb60924086e57164391de601",
+  "size": 14155513,
+  "sha256": "9c9250320a8ae78e64b4dcc8a27f931d695ea4379fd6d6fba5880e6cd62e441c",
+  "published_at": "2026-11-13T07:20:01Z",
+  "summary": "Program updates with approval; previous-patch restore, Undo restore, separate repair backups, and clearer patch information."
+}
