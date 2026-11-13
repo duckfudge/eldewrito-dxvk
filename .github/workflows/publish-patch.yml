@@ -6,6 +6,7 @@ on:
       - d3d9.dll
       - dxvk.conf
       - eldorado.dxvk-cache
+      - patch-notes.json
       - .github/workflows/publish-patch.yml
   workflow_dispatch:
 permissions:
