@@ -2,11 +2,16 @@
 
 ## Patch updater for Windows
 
-[Download ElDewrito DXVK Updater 1.0.2](https://github.com/duckfudge/eldewrito-dxvk/releases/tag/updater-v1.0.2).
+[Download ElDewrito DXVK Updater 1.1.0](https://github.com/duckfudge/eldewrito-dxvk/releases/tag/updater-v1.1.0).
 Extract the entire ZIP and run `ElDewritoDXVKUpdater.exe`. Python is included.
+Players using 1.0.x must install this ZIP manually once, preferably in a fresh
+folder. Keep `_dxvk_updater` beside the executable. Future program updates are
+offered inside the app and ask separately from patch installation.
 Choose your game folder containing `eldorado.exe`; the app checks for patches when
 opened and asks before installing. It also offers repair and restore controls.
 Keep the game closed while installing or restoring a patch.
+The remembered game folder is preferred. Repair preserves the previous patch
+revision and retains a separate pre-repair backup; Undo restore reverses restoration.
 
 The updater manages `d3d9.dll`, `dxvk.conf`, and `eldorado.dxvk-cache`. It preserves
 a backup of affected files, and normal shader-cache growth does not trigger updates.
