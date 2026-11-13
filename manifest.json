@@ -1,9 +1,9 @@
 {
-  "schema_version": 1,
-  "source_commit": "7facd7c50cf8eb2ab9dd72dfa0387d04943db969",
+  "schema_version": 2,
+  "source_commit": "776118b763823dd75615bc44833d7b8d72ac4ae3",
   "patch_id": "e6dd32eb028138e9aa73e9eef944005cc1598546a22e03299477b87d708fa3c3",
   "published_at": "2026-09-10T12:24:01.866272+00:00",
-  "summary": "Updated d3d9.dll, dxvk.conf, eldorado.dxvk-cache.",
+  "summary": "The curated DXVK rendering patch, configuration, and shader cache for stable ElDewrito 0.7. Close the game before installation.",
   "files": [
     {
       "name": "d3d9.dll",
@@ -20,5 +20,7 @@
       "size": 2153302,
       "sha256": "4fd502276ee65c426aa76d5c94c71bd0f60142a5c5d0cfe3aeeb91a9a07385d8"
     }
-  ]
+  ],
+  "title": "ElDewrito 0.7 DXVK patch",
+  "minimum_updater": "1.1.0"
 }
