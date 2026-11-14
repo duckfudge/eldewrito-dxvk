@@ -2,14 +2,14 @@
 
 ## Patch updater for Windows
 
-[Download ElDewrito DXVK Updater 1.1.1](https://github.com/duckfudge/eldewrito-dxvk/releases/tag/updater-v1.1.1).
+[Download ElDewrito DXVK Updater 1.1.2](https://github.com/duckfudge/eldewrito-dxvk/releases/tag/updater-v1.1.2).
 Extract the entire ZIP and run `ElDewritoDXVKUpdater.exe`. Python is included.
 Players using 1.0.x must install this ZIP manually once, preferably in a fresh
 folder. Keep `_dxvk_updater` beside the executable. Future program updates are
 offered inside the app and ask separately from patch installation.
-If an update from 1.1.0 fails, extract the latest ZIP to a fresh folder; that first
-replacement still uses its older helper. Version 1.1.1 improves interrupted recovery
-and administrator-assisted updates.
+If an update from 1.1.0 or 1.1.1 fails, extract the latest ZIP to a fresh folder
+and keep the old folder/cache. Version 1.1.2 improves interrupted recovery and
+handling of administrator approval.
 Choose your game folder containing `eldorado.exe`; the app checks for patches when
 opened and asks before installing. It also offers repair and restore controls.
 Keep the game closed while installing or restoring a patch.
