@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "version": "1.1.1",
-  "source_commit": "2e9146f514576351820b35db5cc1f110510e9e7e",
-  "size": 14159381,
-  "sha256": "89191dbe3cf182c0c2d43084d8418ac7a4aaf64ef6d7167b95eeb1564a67727f",
-  "published_at": "2026-11-13T12:13:03Z",
-  "summary": "More reliable interrupted program recovery, independent program checks, safer cancellation, and bounded helper-cache cleanup."
+  "version": "1.1.2",
+  "source_commit": "b8900f0742d2ea410a5d7c576ffe63c15537ac41",
+  "size": 14160656,
+  "sha256": "6925abda34f9c8cb919d2e3c37fab71b98a6c47a0f8dcf89833097a4eceb9cba",
+  "published_at": "2026-11-14T07:15:19Z",
+  "summary": "Recover interrupted updates before starting the target runtime, allow time for UAC approval, and retain recovery errors in the journal."
 }
